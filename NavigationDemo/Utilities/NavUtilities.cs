@@ -1,5 +1,4 @@
-﻿using Java.Security;
-using NavigationDemo.MVVM.Pages;
+﻿using NavigationDemo.MVVM.Pages;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
