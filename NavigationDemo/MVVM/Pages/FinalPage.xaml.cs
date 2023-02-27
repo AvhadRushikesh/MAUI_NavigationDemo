@@ -1,3 +1,5 @@
+using NavigationDemo.Utilities;
+
 namespace NavigationDemo.MVVM.Pages;
 
 public partial class FinalPage : ContentPage
@@ -6,6 +8,12 @@ public partial class FinalPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        NavUtilities.Examine(Navigation);
+    }
 
     private void Button_Clicked(object sender, EventArgs e)
     {
